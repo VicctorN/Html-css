@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+*{
+   margin:0px;
+   padding:0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+body{
+   background-color: black;
+}
+h1{
+   background-color:#151B42;
+   
+}
+header h1{
+   color:white;
+   padding: 5%;
+   display:block;
+}
+nav{
+   background-color: #151B42;
+   padding:10px;
+}
+nav a{
+   text-decoration: none;
+   color: gray;
+   padding: 10px;
+}
+main{
+   background-color: #232E70;
+}
+main img{
+   width: 60%;
+   display: Block;
+   margin:auto;
+   padding-top: 20px;
+}
+button{
+   display:block;
+   margin:auto;
+   width: 100px;
+   margin-top:10px;
+   padding: 10px;
+   background-color: black;
+   color: white;
+}
+main h2{
+   color: white;
+   padding: 20px;
+   text-decoration: underline;
+}
+main p{
+   color: white;
+   padding: 20px;
+   text-align: justify;
+   font-family: 'Open Sans', sans-serif;
+}
+img{
+   width:100%;
+   display: block;
+   margin: 20px auto;
+}
+h2{
+   color: white;
+   padding: 20px;
+}
+div{
+   background-color: #151B42;  
+   padding: -100px;
+}
+video{
+   display:block;
+   margin:auto;
+}
+footer{
+   background-color:#151B42;
+   color: white;
+}
+footer p{
+   text-align:center;
+}
+footer a{
+   color:white
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
