@@ -2,72 +2,52 @@
 
 body{
    background-color: #0F1216;
-   margin: 0px;
+   margin: 0px 40px;
    padding: 0px;
    color: white;
 }
 header{
-   padding: 10px 40px;
-   background-color: #0c0f13b6;
+   margin: 0px;
 }
-main{
-   margin: 0px 40px;
+div.container{
+   text-align: center;
+   margin: 100px 20px;
 }
-article{
-   margin: 5%;
-}
-article img{
+div.container .logo{
+   border-radius: 50%;
    width: 150px;
-   border-radius: 100px;
 }
-.button{
-   display: flex;
-}
-.button a{
-   text-decoration: none;
-   color: white;
-}
-
-.button p{
-   margin: 2px;
-   display: block;
-   border: 2px solid white;
+div.container .button{
+   border: 1px solid white;
    padding: 10px;
-   width: 100px;
-   border-radius: 5px;
+   display: inline-block;
+   border-radius: 3px;
 }
 .planos{
+   justify-content: center;
+   margin: 50px 0px;
    display: flex;
    flex-wrap: wrap;
-   align-items: center;
 }
-.box{
+.planos .box{
+   justify-content: center;
+   width: 300px;
+   margin-right: 10px;
    border: 1px solid white;
-   margin: 10px;
-   padding: 20px;
-   white-space: nowrap;
-   max-width: 300px;
-   height: 450px;
-   border-radius: 5px;
+   padding: 20px; 
 }
-.box img{
-   max-width: 300px;
+.planos .box img{
+   width: 100%;
 }
-.box .text{
-   white-space: normal;
+div.text{
+   text-align: justify;
 }
-.box .buy{
-   white-space: normal;
-   background-color: white;
-   color:black;
+.planos div.box h4{
    text-align: center;
+   background-color: white;
+   color: black;
    padding: 20px;
-   max-width: 350px;
-   border-radius: 4px;
-   font-weight: bolder;
-   font-size: 1.3em;
-   box-shadow: 1px 4px 7px 1px #0F1216;
-}
-.box a{
-   text-decoration: none;
+   font-weight: 900;
+   font-size: 1em;
+   border-radius: 5px;
 }
