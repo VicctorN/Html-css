@@ -2,7 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Passion+One:wght@400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Sriracha&display=swap');
 
-
+*{
+   margin: 0px;
+   padding: 0px;
+}
+html,body{
+   min-height: 100vh;
+   background-color: darkgray;
+}
 body{
    padding: 0px;
    margin: 0px;
@@ -10,20 +17,21 @@ body{
 }
 header{
    text-align: center;
-   padding: 40px;
-   margin-bottom: 40px;
+   padding: 50px 0px;
    background-color: black;
    color: white;
 }
 header h1{
    font-size: 3em;
    font-family: 'Passion One', cursive;
+   font-variant: small-caps;
 }
-header a{
+header a, footer a{
    text-decoration: none;
    color: white;
+   font-weight: bolder;
 }
-header a:hover{
+header a:hover, footer a:hover{
    text-decoration: underline;
 }
 main{
@@ -31,40 +39,38 @@ main{
    font-size: 2em;
    font-family: 'Sriracha', cursive;
 }
-.normal{
-   margin: 80px 40px;
-}
-.conteiner1{
+main p{
    margin: 0px;
-   background-color: gray;
 }
-.conteiner1 article{
-   background-color: rgba(0, 100, 0, 0.241);
+section{
+   padding: 10vw 5vw;
+   line-height: 2em;
+}
+section.normal{
+   background-color: white; 
+}
+
+#img1 article{
+   background-color: rgba(0, 100, 0, 0.171);
    padding: 5px 0px;
-   max-width: 400px;
+   width: 400px;
 }
 .normal article{
-   padding: 10px 0px;
+   padding: 40px 0px;
 }
-.conteiner2{
+.imagem{
    padding: 40px;
    background-color: gray;
 }
-.conteiner2 article{
+#img2 article{
    padding: 5px 0px;
    background-color: rgba(128, 128, 128, 0.604);
    width: 400px;
+   color: white;
 }
 footer{
    color: white;
    text-align: center;
-   padding: 1px;
+   padding: 5px;
    background-color: black;
-}
-footer a{
-   text-decoration: none;
-   color: white;
-}
-footer a:hover{
-   text-decoration: underline;
 }
