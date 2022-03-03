@@ -58,6 +58,7 @@ section.normal{
 .imagem{
    padding: 30px;
    background-color: gray;
+   box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.597);
 }
 #img1{
    background: gray url(../assets/imagens/image1.jpg) right center no-repeat fixed;
@@ -70,20 +71,20 @@ section.normal{
    background-size: cover;
    height: 600px;
 }
-#img1 article{
+.imagem article{
    position: relative;
    display: inline-block;
-   background-color: rgba(0, 100, 0, 0.171);
    padding: 5px 0px;
    top: 15%;
+   color: white;
+   text-shadow: 2px 2px 0px black;
+}
+#img1 article{   
+   background-color: rgba(0, 100, 0, 0.171); 
 }
 #img2 article{
-   position: relative;
-   top: 15%;
-   display: inline-block;
-   padding: 5px 0px;
-   background-color: rgba(128, 128, 128, 0.604);
-   color: white;
+   background-color: rgba(0, 0, 0, 0.405);
+   
 }
 footer{
    color: white;
