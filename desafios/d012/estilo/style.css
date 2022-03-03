@@ -6,6 +6,11 @@
    margin: 0px;
    padding: 0px;
 }
+:root{
+   --fonte01: Verdana, Gevana, Tahoma, sans-serif;
+   --fonte02: 'Passion One', cursive;
+   --fonte03: 'Sriracha', cursive;
+}
 html,body{
    min-height: 100vh;
    background-color: darkgray;
@@ -14,6 +19,7 @@ body{
    padding: 0px;
    margin: 0px;
    box-sizing: border-box;
+   font-family: var(--fonte01);
 }
 header{
    text-align: center;
@@ -22,8 +28,8 @@ header{
    color: white;
 }
 header h1{
-   font-size: 3em;
-   font-family: 'Passion One', cursive;
+   font-size: 4em;
+   font-family: var(--fonte02);
    font-variant: small-caps;
 }
 header a, footer a{
@@ -34,37 +40,38 @@ header a, footer a{
 header a:hover, footer a:hover{
    text-decoration: underline;
 }
-main{
-   background-color: white;
-   font-size: 2em;
-   font-family: 'Sriracha', cursive;
-}
-main p{
-   margin: 0px;
-}
 section{
-   padding: 10vw 5vw;
+   padding: 40px 30px;
    line-height: 2em;
+   font-size: 2em;
+   font-family: var(--fonte03);
+}
+section p{
+   margin: 0px;
 }
 section.normal{
    background-color: white; 
 }
 #img1 article{
+   position: relative;
+   display: inline-block;
    background-color: rgba(0, 100, 0, 0.171);
    padding: 5px 0px;
-   width: 400px;
+   top: 15%;
 }
 .normal article{
-   padding: 40px 0px;
+   padding: 20px 0px;
 }
 .imagem{
-   padding: 40px;
+   padding: 30px;
    background-color: gray;
 }
 #img2 article{
+   position: relative;
+   top: 15%;
+   display: inline-block;
    padding: 5px 0px;
    background-color: rgba(128, 128, 128, 0.604);
-   width: 400px;
    color: white;
 }
 footer{
@@ -72,4 +79,19 @@ footer{
    text-align: center;
    padding: 5px;
    background-color: black;
+}
+@media(max-width:550px){
+   header h1{
+      font-size: 3em;
+   }
+   section{
+      white-space: nowrap;
+      font-size: 1.5em;
+   }
+}
+@media (max-width:900px){
+   #img1, #img2{
+     height: 500px;
+     background-position: center center;
+   }
 }
