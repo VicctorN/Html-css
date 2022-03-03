@@ -41,7 +41,7 @@ header a:hover, footer a:hover{
    text-decoration: underline;
 }
 section{
-   padding: 40px 30px;
+   padding: 2em 30px;
    line-height: 2em;
    font-size: 2em;
    font-family: var(--fonte03);
@@ -52,19 +52,30 @@ section p{
 section.normal{
    background-color: white; 
 }
-#img1 article{
-   position: relative;
-   display: inline-block;
-   background-color: rgba(0, 100, 0, 0.171);
-   padding: 5px 0px;
-   top: 15%;
-}
 .normal article{
    padding: 20px 0px;
 }
 .imagem{
    padding: 30px;
    background-color: gray;
+}
+#img1{
+   background: gray url(../assets/imagens/image1.jpg) right center no-repeat fixed;
+   background-size: cover;
+   color: white;
+   height: 600px;
+}
+#img2{
+   background: gray url(../assets/imagens/image2.jpg) center no-repeat fixed;
+   background-size: cover;
+   height: 600px;
+}
+#img1 article{
+   position: relative;
+   display: inline-block;
+   background-color: rgba(0, 100, 0, 0.171);
+   padding: 5px 0px;
+   top: 15%;
 }
 #img2 article{
    position: relative;
